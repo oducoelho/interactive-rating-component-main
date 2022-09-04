@@ -1,0 +1,121 @@
+body { 
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#container {
+    background-color:  hsl(213, 19%, 18%) ;
+    width: 320px;
+    padding: 20px 20px;
+    border-radius: 25px;
+}
+
+h2 {
+    font-family: overpass;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+p {
+    font-family: overpass;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+}
+
+#star {
+    background-color: hsl(216, 12%, 54%,0.1);
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+}
+
+#img {
+    padding-left: 14px;
+    padding-top: 14px;
+}
+
+.buttons {
+    padding-top: 20px;
+    display: flex;
+    gap: 25px;
+    
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5 {
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%,0.1);
+    padding: 0.75em 1.12em;
+    color: hsl(0, 0%, 100%,0.5);
+    cursor: pointer;
+    transition: background-color 300ms, color 300ms;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover{    
+    background-color: #fb7413;
+}
+
+#submit {
+    border: none;
+    height: 45px;
+    width: 320px;
+    border-radius: 50px;
+    background-color: #fb7413;
+    font-family: overpass;
+    color: white;
+    font-weight: 400;
+    cursor:pointer;
+    transition: background-color 300ms, color 300ms;
+}
+
+#submit:hover {
+    background-color: white;
+    color: #fb7413;
+    font-weight: 700;
+}
+
+#subBtn {
+    padding-top: 13px;
+}
+
+#container2 {
+    background-color:  hsl(213, 19%, 18%) ;
+    width: 320px;
+    padding: 20px 20px;
+    border-radius: 25px;
+}
+
+.img2 {
+    padding-left: 65px;
+}
+
+.text-2 {
+    padding-left: 30px;
+    padding-top: 5px ;
+    color: #fb7413;
+    font-family: overpass;
+}
+
+#back-text {
+    background-color: hsl(216, 12%, 54%,0.1);
+    width: 214px;
+    margin-left: 50px;
+    border-radius: 10px;
+    height: 25px;
+    
+}
+
+.title {
+    color: white;
+    font-family: overpass;
+    padding-left: 112px;
+}
+
+.text-3 {
+    font-family: overpass;
+    font-size: 14px;
+    text-align: center;
+}
