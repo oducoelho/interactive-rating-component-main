@@ -1,5 +1,4 @@
-# readme-model
-<h1 align="center">:file_cabinet: Exemplo de README.md</h1>
+<h1 align="center">Compoente de FeedBack</h1>
 
 ## :memo: Descrição
 A challenge composed of HTML CSS and JavaScript proposed by the Frondend Mentor website
